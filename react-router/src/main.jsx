@@ -3,8 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, Routes, Route, createRoutesFromElements, RouterProvider } from "react-router";
 import './index.css'
 import Layout from './components/Layout/Layout.jsx';
-import { Home, About, Contact, User, Github } from './components/index.js';
-import { GithubLoader } from './components/Github/Github.jsx';
+import { Home, About, Contact, User, Github, GithubLoader } from './components/index.js';
 
 
 

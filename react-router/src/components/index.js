@@ -4,7 +4,7 @@ import Home from './Home/Home';
 import About from './About/About';
 import Contact from './Contact/Contact';
 import User from './User/User';
-import Github from './Github/Github';
+import Github, {GithubLoader} from './Github/Github';
 
 export {
     Header,
@@ -13,5 +13,6 @@ export {
     About,
     Contact,
     User,
-    Github
+    Github,
+    GithubLoader
 };
